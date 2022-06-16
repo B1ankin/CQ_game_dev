@@ -1,13 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
+[serializable]
 public class Skill
 {
-    public List<int> targetPos;
+    #region Properties
 
-    Skill()
-    {
-        targetPos = new List<int>();
-    }
+    [JsonProperty("id")]
+    public int Id { get; set; }
+
+    [JsonProperty("name")]
+    public string Name { get; set; }
+
+    [JsonProperty("caster")]
+    public string Caster { get; set; }
+
+    [JsonProperty("effect")]
+    public string Effect { get; set; }
+
+    [JsonProperty("position")]
+    public string Position { get; set; }
+
+    #endregion
 }
