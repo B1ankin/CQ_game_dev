@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cfa3fdc27a0574987b179b29b29180, type: 3}
+  m_Name: "\u4EFB\u52A12"
+  m_EditorClassIdentifier: 
+  DialogModels:
+  - NPCConf: {fileID: 11400000, guid: 6573ea9b717678a4f8f8d25986c57a07, type: 2}
+    NPCHead: {fileID: 21300000, guid: e8ddd53484bda034992d53810f2a8ded, type: 3}
+    NPCContent: "\u5C11\u4FA0\u6551\u6211\uFF0C\u8BA9\u6211\u548C\u4F60\u4E00\u8D77\u53BB\u5192\u9669\u5427"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\uFF1F\uFF1F\uFF1F"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 1
+      - DialogEvent: 6
+        Args: 10004
+      CondCode: 0
+    - Content: "\u6765\u6B21\u8D2D"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 1
+      CondCode: 0
+    - Content: "\u597D\u5904\u4E0D\u591F\u591A"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 2
+      CondCode: 0
+    - Content: "\u518D\u89C1"
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: 0
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u4F60\u522B\u7BA1\uFF0C\u8FD9\u662F\u6211\u5AB3\u5987"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u5230\u5E95\u53D1\u751F\u4E86\u5565"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 2
+      CondCode: 0
+    - Content: "\u54E6\uFF0C\u597D\u7684\uFF0C\u4E0D\u6253\u6270\u4E86"
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: 0
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: 6573ea9b717678a4f8f8d25986c57a07, type: 2}
+    NPCHead: {fileID: 21300000, guid: e8ddd53484bda034992d53810f2a8ded, type: 3}
+    NPCContent: "\u6211\u4E4B\u524D\u88AB\u4EBA\u8FF7\u6655\u4E86\uFF0C\u9192\u6765\u5C31\u5728\u8FD9\u4E86\uFF0C\u8FD9\u4EBA\u8FD8\u60F3\u8BA9\u6211\u5F53\u4ED6\u8001\u5A46\uFF0C\u8FD9\u662F\u9614\u6015"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: ummmm
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 3
+      CondCode: 0
+    - Content: "\u4F60\u4EEC\u633A\u5408\u9002\u7684 :)"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 5
+      CondCode: 0
+    - Content: "\u95EE\u8001\u4EBA\uFF0C\u4F60\u591A\u5C11\u94B1\u4E70\u6765\u7684\uFF0C\u6211\u51FA\u66F4\u9AD8\u4EF7"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 4
+      CondCode: 0
+    - Content: "\u544A\u8F9E"
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: 0
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: 6573ea9b717678a4f8f8d25986c57a07, type: 2}
+    NPCHead: {fileID: 21300000, guid: e8ddd53484bda034992d53810f2a8ded, type: 3}
+    NPCContent: "Trust \uFF01 \u4E48\uFF01"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u884C\u5427"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 4
+      CondCode: 0
+    - Content: "\u642D\u560E\uFF0C\u53E3\u5934\u54C7\u8DEF"
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: 0
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u4E00\u53EA\u718A\uFF0B100\u6587\uFF0C\u5982\u679C\u4F60\u80AF\u51FA\u4E24\u5934\u732A\u6211\u4EEC\u5C31\u6210\u4EA4"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u7ED9\uFF1A\uFF09"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 6
+      CondCode: 0
+    - Content: "\u8981\u94B1\u6CA1\u6709\uFF0C\u8981\u547D\u4E00\u6761"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 7
+      CondCode: 0
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: 6573ea9b717678a4f8f8d25986c57a07, type: 2}
+    NPCHead: {fileID: 21300000, guid: e8ddd53484bda034992d53810f2a8ded, type: 3}
+    NPCContent: ".\u3002\u3002\u3002\u3002\u3002\u3002\u3002\u3002\u3002"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u79BB\u5F00"
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: 0
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u9614\u4EE5\u9614\u4EE5\uFF0C\u4EBA\u4F60\u5E26\u8D70\u5427"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\uFF0C\u76AE\u76AE\u867E\uFF0C\u6211\u4EEC\u8D70"
+      DialogEventModels:
+      - DialogEvent: 2
+        Args: 8
+      CondCode: 0
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u4F60\u4F7F\u7528\u4E86\u732B\u732B\u62F3\uFF0C\u6548\u679C\u751A\u5FAE\u3002
+      \u5BF9\u65B9\u4F7F\u7528\u4E86\u666E\u901A\u4E00\u62F3\uFF0C\u6548\u679C\u62D4\u7FA4\u3002"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u543E\u547D\u4F11\u77E3"
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: 0
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: 6573ea9b717678a4f8f8d25986c57a07, type: 2}
+    NPCHead: {fileID: 21300000, guid: e8ddd53484bda034992d53810f2a8ded, type: 3}
+    NPCContent: "\u611F\u8C22\u5C11\u4FA0\uFF0C\u613F\u8BA9\u4F60\u505A\u725B\u505A\u9A6C\u4E5F\u4E0D\u4E3A\u8FC7"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u5E26\u8D70\uFF0C\u53BB\u5C40\u5B50\u91CC\u597D\u597D\u76D8\u67E5"
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: 0
+    DialogPlayerCondSelects: []

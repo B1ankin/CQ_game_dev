@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cfa3fdc27a0574987b179b29b29180, type: 3}
+  m_Name: "\u9C8D\u53D4\u725901"
+  m_EditorClassIdentifier: 
+  DialogModels:
+  - NPCConf: {fileID: 11400000, guid: 831050e56c65ebb41ab47baa34b55019, type: 2}
+    NPCHead: {fileID: 21300000, guid: d8a46e0e74ccb9c4098b2a699a741c38, type: 3}
+    NPCContent: "\u9C8D\u53D4, \u4ECA\u65E5\u72E9\u730E\u7684\u6210\u679C\u4E0D\u9519\u554A\uFF0C\u4F60\u770B\u770B\u8FD9\u5927\u866B\uFF0C\u5FEB\u6709\u4F60\u6211\u8FD9\u4E48\u5927\u4E86\u3002"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u8FC7"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u516C\u5B50\u7BAD\u672F\u6709\u7CBE\u8FDB\u4E86\uFF0C\u7B49\u516C\u5B50\u5728\u8392\u56FD\u7684\u52BF\u529B\u53D1\u5C55\u58EE\u5927\uFF0C\u91CD\u8FD4\u4E34\u6DC4\u6307\u65E5\u53EF\u5F85\uFF01"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u54CE\u542C\u8BF4\u6211\u90A3\u6DEB\u4E71\u7684\u54E5\u54E5\u8D8A\u53D1\u7684\u653E\u8086\uFF0C\u73B0\u5728\u6562\u5728\u9C81\u56FD\u4EBA\u9762\u524D\u4E0E\u6587\u59DC\u79C1\u4F1A\u3002"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u81EA\u4ECE\u8FD9\u9C81\u6853\u516C\u51FA\u4E8B\u4EE5\u540E\uFF0C\u6587\u59DC\u5728\u9C81\u56FD\u5DF2\u7ECF\u5782\u5E18\u542C\u653F\uFF0C\u6743\u52BF\u6ED4\u5929\uFF0C\u901A\u5978\u53AE\u6DF7\u81EA\u7136\u65E0\u4EBA\u53EF\u4EE5\u5236\u88C1\u3002\n\u636E\u8BF4\u9F50\u56FD\u5C06\u8981\u5BF9\u536B\u56FD\u7528\u5175\u3002"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u4E3A\u4F55\u536B\u56FD\u548C\u6211\u9F50\u56FD\u4E00\u76F4\u662F\u53CB\u597D\u76F8\u5BF9"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u542C\u8BF4\u90A3\u6DEB\u8D3C\u548C\u8431\u59DC\u4E5F\u6709\u67D3\u4E86"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u4E0D\u77E5\u6211\u5927\u9F50\u7684\u57FA\u4E1A\u4F1A\u4E0D\u4F1A\u6BC1\u4E8E\u8FD9\u53AE\u624B\u4E0A\u3002 "
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: 98dfc443bc961074e96074095abe40d4, type: 2}
+    NPCHead: {fileID: 21300000, guid: 1fa3e4204a0bb52448b6d867422b2399, type: 3}
+    NPCContent: "\u5144\u5F1F\u4EEC\uFF0C\u5728\u5F80\u91CC\u8D70\u8D70\uFF0C\u8392\u5B50\u5019\u4EA4\u7ED9\u6211\u4EEC\u7684\u4EFB\u52A1\u4E00\u5B9A\u8981\u5B8C\u6210\u554A"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u7EE7\u7EED\u542C"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: b0a498759e61eef4eb967dec9b9f5d71, type: 2}
+    NPCHead: {fileID: 21300000, guid: 1fa3e4204a0bb52448b6d867422b2399, type: 3}
+    NPCContent: "\u5934\uFF0C\u8FD9\u5546\u7EA3\u738B\u7684\u5B9D\u85CF\u54EA\u6709\u8FD9\u4E48\u597D\u627E\uFF0C\u5C06\u58EB\u4EEC\u90FD\u628A\u8FD9\u4E00\u5730\u8D70\u904D\u4E86\uFF0C\u90FD\u6CA1\u6709\u5BFB\u5F97\u86DB\u4E1D\u9A6C\u8FF9\uFF01"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u7EE7\u7EED"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: 98dfc443bc961074e96074095abe40d4, type: 2}
+    NPCHead: {fileID: 21300000, guid: 1fa3e4204a0bb52448b6d867422b2399, type: 3}
+    NPCContent: "\u6211\u5DF2\u7ECF\u5F97\u5230\u6D88\u606F\uFF0C\u8FD9\u6797\u5B50\u91CC\u6709\u53E4\u602A\uFF0C\u5FEB\u548C\u6211\u53BB\u770B\u770B\uFF0C\u8FD9\u6B21\u4E00\u5B9A\u80FD\u627E\u5230\u3002"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u95EE\u9C8D\u53D4\uFF1A\u9C8D\u53D4\uFF0C\u8FD9\u5546\u7EA3\u738B\u7684\u5B9D\u85CF\u662F\u600E\u4E48\u56DE\u4E8B\uFF1F"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u76F8\u4F20\u6B66\u738B\u4F10\u7EA3\uFF0C\u7EA3\u738B\u5175\u8D25\u7267\u91CE\u4E4B\u540E\u81EA\u77E5\u65E0\u529B\u56DE\u5929\uFF0C\u6B32\u4ECE\u7405\u740A\u6E21\u53E3\u9001\u5176\u5175\u7532\u548C\u73CD\u5B9D\u6E21\u6CB3\uFF0C\u671B\u5546\u540E\u4EE3\u518D\u590D\u5546\u4E4B\u8F89\u714C\u3002\u53EF\u53F9\uFF0C\u9014\u4E2D\u88AB\u8392\u4EBA\u6240\u7834\uFF0C\u4ED3\u4FC3\u63A9\u57CB\u3002\u540E\u8C23\u8A00\u56DB\u8D77\uFF0C\u79F0\u8FD9\u7EA3\u738B\u5B9D\u85CF\u57CB\u4E8E\u9F50\u8392\u8FB9\u5883\u3002\u4EE5\u8FD9\u5175\u4E01\u6240\u8A00\uFF0C\u8392\u5B50\u5019\u91CE\u5FC3\u4E0D\u5C0F\u554A\uFF0C\u516C\u5B50\u662F\u5426\u8981\u8DDF\u4E0A\u53BB\u770B\u770B\u3002"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u597D\u554A\u597D\u554A"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: 6573ea9b717678a4f8f8d25986c57a07, type: 2}
+    NPCHead: {fileID: 21300000, guid: e8ddd53484bda034992d53810f2a8ded, type: 3}
+    NPCContent: "\u6551\u547D\u554A\uFF01\uFF01\uFF01"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\uFF01\uFF01\uFF01\u9F50\u56FD\u8FB9\u5883\u961F\u4F0D\u53C8\u5728\u6B3A\u8D1F\u767E\u59D3\uFF0C\u9C8D\u53D4\u7259\u968F\u6211\u53BB\u770B\u770B
+        \uFF1F"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u516C\u5B50\u5343\u91D1\u4E4B\u8EAF\uFF0C\u4E14\u6CA1\u5E26\u62A4\u536B\uFF0C\u6B64\u4E8B\u9887\u6709\u98CE\u9669\u3002\u4E0D\u5982\u8FD8\u662F\u4E0E\u8392\u56FD\u5175\u4E01\u540C\u884C
+      \u770B\u770B\u6709\u65E0\u5B9D\u85CF\u5427\u3002"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u9C8D\u53D4\u7259\u6240\u8A00\u5373\u4F7F\uFF0C\u5C31\u7B97\u6211\u6551\u5F97\u4E00\u4EBA\u53C8\u6709\u548C\u7528\uFF0C\u76F8\u6BD4\u8D77\u6765\uFF0C\u60F3\u8981\u62EF\u6551\u8FD9\u793C\u4E50\u5D29\u574F\u4E4B\u8BF4\uFF0C\u8FD8\u9700\u9690\u5FCD\uFF0C\u4E0D\u6613\u4E0E\u9F50\u5175\u8D77\u6B63\u9762\u51B2\u7A81\uFF0C\u8FD9\u5546\u7EA3\u738B\u5F97\u5B9D\u85CF\u4E5F\u8BB8\u662F\u673A\u9047\uFF0C\u53EF\u4EE5\u6539\u53D8\u4E9B\u4EC0\u4E48\u3002"
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: -1
+    - Content: "\u9C8D\u53D4\u6240\u8A00\u5373\u4F7F\uFF0C\u4F46\u6211\u8FDE\u4E00\u5973\u5B50\u90FD\u4E0D\u80FD\u6551\u4E0B\uFF0C\u5982\u4F55\u53BB\u6551\u90A3\u5929\u4E0B\u4EBA\uFF1F\u5B9D\u85CF\u4E4B\u8BF4\u4EC5\u662F\u8C23\u8A00\uFF0C\u66F4\u4F55\u51B5\u5C31\u7B97\u771F\u6709\u5B9D\u85CF\uFF0C\u8392\u56FD\u5175\u4E01\u5C82\u4F1A\u8BA9\u6211\u67D3\u6307\uFF1F\u6551\u4EBA\uFF01\uFF01\uFF01\uFF01"
+      DialogEventModels:
+      - DialogEvent: 0
+        Args: 
+      CondCode: -1
+    - Content: "\u54CE\uFF0C\u6211\u7D2F\u4E86\uFF0C\u9C8D\u53D4\u6211\u4EEC\u56DE\u57CE\u5427."
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
+  - NPCConf: {fileID: 11400000, guid: db2471c781cf52648af6a8aea4deaf59, type: 2}
+    NPCHead: {fileID: 21300000, guid: 023105d9a84d89b48bfe060c87635c07, type: 3}
+    NPCContent: "\u516C\u5B50\u6240\u8A00\u751A\u597D\uFF0C\u521A\u521A\u90A3\u4E2A\u58F0\u97F3\u5E94\u8BE5\u662F\u5357\u8FB9\u4F20\u6765\u7684"
+    DialogEventModels: []
+    DialogPlayerSelects:
+    - Content: "\u591A\u8C22\u9C8D\u53D4, \u6211\u4EEC\u8D70"
+      DialogEventModels:
+      - DialogEvent: 1
+        Args: 
+      CondCode: -1
+    DialogPlayerCondSelects: []
